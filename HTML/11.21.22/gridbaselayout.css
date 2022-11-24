@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    }
+
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 30% 1fr;
+    grid-template-areas:  
+        "nav article"
+        "nav article"
+        "nav article"
+    ;
+}
+
+nav {
+    background-color:darkslategray;
+    grid-area: nav;
+    font-size:x-large;
+    font-weight: bold;
+    padding: 50px;
+    
+}
+
+article {
+    background-color: antiquewhite;
+    grid-area: article;
+    padding: 30px;
+    
+    
+}
+
+
+h2 {
+    font-weight: lighter;
+    font-size: large;
+}
+
+.grid-form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    
+}
+.grid-form label {
+    display: block;
+}
+
+.wrapper .box {
+    padding: 20px;
+    
+}
+
+.wrapper .box input {
+    font-size: 20px;
+    padding: 10px 80px;
+
+}
+
+.wrapper .box .label {
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+.btn-container {
+    align-content: center;
+    margin-left: 20px;
+    
+    
+}
+
+

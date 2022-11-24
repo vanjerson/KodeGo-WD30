@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    height: 20vh;
+    background-color: yellowgreen;
+    padding: 15px;
+}
+
+main {
+    height: 60vh;
+    display: flex;
+}
+
+aside {
+    width: 30%;
+    padding: 15px;
+    background-color: wheat;
+    height: 60vh;
+
+}
+nav {
+    width: 30%;
+    padding: 15px;
+    background-color:lightgreen;
+    height: 60vh;
+    
+}
+
+article {
+    width: 100vh;
+    padding: 15px;
+    background-color: cornsilk;
+    height: 90%;
+    
+}
+
+body {
+    margin: 0;
+}
+
+.container1 {
+    padding: 15px;
+    
+}
+
+
+.container2 {
+    display:flex;
+    column-gap: 30px;
+    height: 100%;
+    width: 100%;
+    
+    /* 
+    gap
+    column-gap
+    row-gap
+    */
+}
+
+.flex-item.left {
+    width: 70%;
+}
+
+.field {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.field label {
+    flex: 2;
+    padding: 5px;
+    
+    /* 
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%; 
+    */
+}
+
+.field input {
+    flex: 3;
+    padding: 5px;
+    
+    
+}
+
+
+.flex-item.right {
+    width: 30%;
+    gap: 30px;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    border: 0;
+    padding: 10px;
+    background-color:dimgray;
+    
+    
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    height: 100%;
+}

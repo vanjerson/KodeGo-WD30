@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        header {
+            background-color: aqua;
+            height: 70px;
+            border: 1px solid black;
+
+        }
+        nav {
+            background-color: aquamarine;
+            height: 50px;
+            border: 1px solid black;
+        }
+        article {
+            background-color: cornflowerblue;
+            width: 70%;
+            float: left;
+            height: 800px;
+            border: 1px solid black;
+        }
+        aside {
+            background-color: darkturquoise;
+            width: 30%;
+            float: left;
+            height: 800px;
+            border: 1px solid black;
+        }
+        footer {
+            background-color:darkseagreen;
+            height: 100px;
+            clear: both;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Semantic HTML</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+    </nav>
+
+    <main>
+
+        <article>
+            <h2>Title of my Blog</h2>
+            <section>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatem ad doloribus! Nostrum obcaecati delectus repellendus non laudantium nihil dolorum velit adipisci aut commodi, praesentium at eum quas ipsam omnis!</p>
+            </section>
+            <section>
+                <figure>
+                    <img src="./animals.jpg.jpg" alt="Image">
+                    <figcaption>This is a random picture</figcaption>
+                </figure>
+            </section>
+            <section>
+                <!-- <video src="./Planet.mp4.mp4"></video> -->
+                <video controls autoplay muted loop>
+                    <source src="./Planet.mp4.mp4" type="video/mp4"/>
+                    Your browser does not support this video.
+                </video>
+            </section>
+
+            <section>
+                <audio controls>
+                    <source src="./Sample.mp3.mp3" type="video/mpeg" />
+                </audio>
+            </section>
+
+        </article>
+        <aside>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, reiciendis delectus! Alias, ea facilis beatae doloribus vero voluptatem, corporis, odit enim sit impedit non et odio quisquam voluptas at quos.</p>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Email me at vanjerson2@gmail.com</p>
+        <p>Copyright 2022</p>
+    </footer>
+
+</body>
+</html>

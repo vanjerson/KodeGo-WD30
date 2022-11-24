@@ -1,0 +1,29 @@
+/* Background Example */
+#div1 {
+    width: 200px;
+    height: 200px;
+    background-image: url(./3394921.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.div2 {
+    width: 300px;
+    height: 300px;
+    border: 1px dashed cornflowerblue;
+}
+
+.div3 {
+    background-color: darkslategrey;
+}
+
+div.div2.div3 {
+    color: aliceblue;
+}
+.div4 {
+    width: 250px;
+    height: 250px;
+    border: 1px double hotpink;
+    background-color: lightgreen;
+}

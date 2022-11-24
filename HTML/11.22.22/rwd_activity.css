@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+
+.brand span {
+    color: gray;
+}
+
+.box {
+    width: 50%;
+    height: 300px;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid black;
+
+}
+
+.box1 {
+    background-color:cadetblue;
+}
+
+.box2 {
+    background-color:darkolivegreen;
+}
+
+.box3 {
+    background-color:darkseagreen;
+}
+
+.desktop {
+    margin-top: 20px;
+    padding: 20px;
+    background-color:beige;
+}
+
+.mobile {
+    padding: 15px;
+    background-color:burlywood;
+    margin-top: 20px;
+    display: none;
+}
+
+.nav {
+    width: 100%;
+    height: 80px;
+    padding: 30px;
+    border: 1px solid black;
+    background-color: dimgray;
+    margin: 0;
+}
+
+.nav a {
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.nav a:hover {
+    color: rgb(38, 64, 97);
+    outline: 0;
+    transition: backround-color 2s ease-out;
+}
+
+.toggle:hover {
+    color: antiquewhite;
+}
+
+
+@media screen and (max-width: 700px) {
+    
+    body {
+        background-color: seagreen;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .box {
+        width: 100%;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+    body {
+        background-color: lightcoral;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    
+    body {
+        background-color: palegoldenrod;
+    }
+    
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    
+    body {
+        background-color: wheat;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+
+    body {
+        background-color: darkseagreen;
+    }
+    
+}
